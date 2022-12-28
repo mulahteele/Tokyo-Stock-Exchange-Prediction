@@ -21,17 +21,19 @@ A statistical model is autoregressive if it predicts future values based on past
 ## Parameters
 
 **p:** the number of lag observations in the model, also known as the lag order.
+
 **d:** the number of times the raw observations are differenced; also known as the degree of differencing.
+
 **q:** the size of the moving average window, also known as the order of the moving average.
 
 ## Pros                                                           Cons
--Good for short-term forecasting                                  -Not built for long-term forecasting
+- Good for short-term forecasting                                  - Not built for long-term forecasting
 
--Only needs historical data                                       -Poor at predicting turning points
+- Only needs historical data                                       - Poor at predicting turning points
 
--Models non-stationary data                                       -Computationally expensive
+- Models non-stationary data                                       - Computationally expensive
 
-                                                                  -Parameters are subjective
+                                                                   - Parameters are subjective
 
 
 
